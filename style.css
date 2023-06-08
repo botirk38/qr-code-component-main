@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root{
+    /* colors */
+    --white: hsl(0, 0%, 100%);
+    --light-gray:hsl(212, 45%, 89%);
+    --grayish-blue:hsl(220, 15%, 55%);
+    --dark-blue:hsl(218, 44%, 22%);
+
+    /* font-size */
+    --font-size-h1: 24px;
+    --font-size-p: 14px;
+
+    /* font-family */
+ 
+    --font-family: 'Outfit', sans-serif;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--light-gray);
+    font-family: var(--font-family);    
+    line-height: 1.5;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    width:30%;
+    height:95%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--dark-blue);
+}
+
+.qr-code{
+    width: 90%;
+    max-height: 90%; /* Change height to max-height */
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5%;
+    overflow: hidden; /* Prevents image overflow */
+}
+
+
+.qr-code img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.qr-code-text{
+    margin: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code-text h1{
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-bottom: 5%;
+    width:100%;
+    text-align: center;
+}
+
+.qr-code-text p{
+    font-size: var(--font-size-p);
+    color: var(--grayish-blue);
+    text-align: center;
+    width: 80%;
+    word-wrap: break-word; 
+
+}
+
+
+@media (max-width: 768px) {
+    #card-section{
+        width: 80%;
+        min-height: 60%;
+        max-height:80%;
+        max-width: 90%;
+        justify-content: center; 
+        padding: 1rem; 
+    }
+
+    .qr-code{
+        width: 100%; 
+        max-height: 100%; 
+    }
+
+    .qr-code-text{
+        width: 100%; 
+    }
+
+    .qr-code-text h1{
+        margin-top:0;
+        font-size: 3vw; 
+    }
+
+    .qr-code-text p{
+        width: 90%;
+        font-size: 2.5vw;
+        word-wrap: break-word;
+    }
+}
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
