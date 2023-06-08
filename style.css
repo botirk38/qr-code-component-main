@@ -52,7 +52,7 @@ main{
 
 .qr-code{
     width: 90%;
-    max-height: 90%; 
+    min-height: 70%; 
     border-radius: 10px 10px 0 0;
     margin-bottom: 5%;
     overflow: hidden; 
