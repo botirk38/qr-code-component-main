@@ -17,9 +17,15 @@ This is a solution to the [QR Code Component Challenge on Frontend Mentor](https
 
 ## Overview
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+#### Desktop View
+
+![Desktop View](project-imgs/desktop-view.png)
+
+#### Mobile View
+
+![Mobile View](project-imgs/mobile-view.png)
 
 ### Links
 
@@ -65,7 +71,8 @@ In future projects, I plan to continue focusing on making components more respon
 ### Useful Resources
 
 [MDN Web Docs](https://your-solution-url.com) - This site was incredibly helpful for understanding HTML, CSS, and JavaScript concepts.
-[CSS-Tricks] (https://your-solution-url.com) - CSS-Tricks provides useful tips and tricks for CSS. The flexbox guide on this site was very handy for this project.
+
+[CSS-Tricks](https://your-solution-url.com) - CSS-Tricks provides useful tips and tricks for CSS. The flexbox guide on this site was very handy for this project.
 
 #### Author: Botir Khaltaev
 #### Frontend Mentor - @BotirKhaltaev

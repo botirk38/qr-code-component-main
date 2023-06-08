@@ -52,10 +52,10 @@ main{
 
 .qr-code{
     width: 90%;
-    max-height: 90%; /* Change height to max-height */
+    max-height: 90%; 
     border-radius: 10px 10px 0 0;
     margin-bottom: 5%;
-    overflow: hidden; /* Prevents image overflow */
+    overflow: hidden; 
 }
 
 
@@ -88,6 +88,7 @@ main{
     font-size: var(--font-size-p);
     color: var(--grayish-blue);
     text-align: center;
+    font-weight: 500;
     width: 80%;
     word-wrap: break-word; 
 
